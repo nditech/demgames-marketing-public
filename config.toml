@@ -1,0 +1,127 @@
+baseurl = "https://www.demgames.app/"
+languageCode = "en"
+title = "DemGames by NDI - Product Landing Page"
+theme = "vex-hugo"
+
+[params]
+  description = "A civic engagement platform that hosts simple games for engagement at scale for civic organizing, political inclusion, and other democratic concepts. "
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = "DemGames by NDI"
+    description = "A civic engagement platform that hosts simple games for engagement at scale for civic organizing, political inclusion, and other democratic concepts. "
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "DemGames"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "https://nditech.org/team"
+      text = "ABOUT NDI TECH"
+    [[params.navbar.menu]]
+      link = "#link-to-form"
+      text = "SIGN UP"
+    [[params.navbar.menu]]
+      link = "#contact"
+      text = "CONTACT"
+
+  # Header
+  [params.header]
+    title = "Civic Education, Gamified!"
+    text = "DemGames is a lightweight, “edutainment” application that hosts simple games to provide additive self-paced experiences for on democracy educational concepts."
+    [params.header.image]
+      path = "images/dg-iphone-small.png"
+      alt = "DemGames Application"
+    [params.header.button]
+      link = "https://demo.demgames.app/"
+      text = "Play the demo"
+
+  # Features
+  [params.features]
+    title = "Core Features"
+    [params.features.image]
+      path = "images/detail-game-play.png"
+      alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Engaging Content"
+      text = "Self-paced multiple choice and matching questions to offer quick reinforcement on key concepts."
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Choose-your-own-adventure"
+      text = "Choose-your-own-adventure narration that mimics practical decision-making and builds high-level reasoning skills"
+    [[params.features.left]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Customization & themeing"
+      text = "You have the ability to customize themes and certain features to better fit your program brand and goals."
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Extensible Content"
+      text = "Content can be extended to meet accessibility requirements for blind or low mobility users through a voice-based assistant."
+    [[params.features.right]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Leaderboard"
+      text = "Players earn points to advance in the game and unlock new levels."
+    [[params.features.right]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Flexibility"
+      text = "As a program implementers, you can tailor the level of difficulty and choose between the different game types to better match program objectives."
+
+  [params.promo]
+    title = "Built through a human-centered approach"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    [params.promo.image]
+      path = "images/google-home.png"
+      alt = "Watch"
+
+  [params.feature_list]
+    title = "Why choose DemGames for your program?"
+    [[params.feature_list.items]]
+      image = "images/vector-art.png"
+      title = "Engage with your audience"
+      text = "Interactive learning platforms offer a unique opportunity to engage with youth on democracy--with a technology approach that meets them where they are."
+      button_link = ""
+      button_text = "Sign Up"
+    [[params.feature_list.items]]
+      image = "images/engage-vector.png"
+      title = "When to use DemGames?"
+      text = "DemGames is an ideal tool designed and developed specifically for youth to complement in-person engagements with a light touch, self-paced follow-up for mobile-based distance learning."
+      button_link = ""
+      button_text = "Sign Up"
+
+  [params.call_to_action]
+    title = "Get Product Updates"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    placeholder = "Your Email Address Here"
+    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Testimonials"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Rachel McGillicudy"
+      position = "Senior Director, UNDP"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Priyal McGillicudy"
+      position = "Program Manager, USAID"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Viet McDonald"
+      position = "Magician, National Endowment for Democracy"
+      image = "images/avater.png"
+    [params.testimonials.button]
+      link = ""
+      text = "Register an account"
+
+  # Footer uses navbar data
