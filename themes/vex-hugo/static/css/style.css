@@ -134,6 +134,12 @@ a:active {
     background-color: #7ec37aff;
     color: #fff; }
 
+    #promo {
+      display: inline-block;
+      color: #ffffff;
+      background: #f9a743;
+      box-shadow: 0 15px 40px rgb(249,167,68,0.5);
+    }
 .btn-main-sm {
   padding: 12px 35px;
   text-transform: uppercase;

@@ -50,7 +50,7 @@ theme = "vex-hugo"
       alt = "Watch"
     # Menu at the left of the image
     [[params.features.left]]
-      icon = "tf-ion-ios-alarm-outline"
+      icon = "tf-ion-ios-book-outline"
       title = "Engaging Content"
       text = "Self-paced multiple choice and matching questions to offer quick reinforcement on key concepts."
     [[params.features.left]]
@@ -63,7 +63,7 @@ theme = "vex-hugo"
       text = "You have the ability to customize themes and certain features to better fit your program brand and goals."
     # Menu at the right of the image
     [[params.features.right]]
-      icon = "tf-ion-ios-alarm-outline"
+      icon = "tf-ion-ios-book-outline"
       title = "Extensible Content"
       text = "Content can be extended to meet accessibility requirements for blind or low mobility users through a voice-based assistant."
     [[params.features.right]]
