@@ -77,10 +77,12 @@ theme = "vex-hugo"
 
   [params.promo]
     title = "Built through a human-centered approach"
+    link = "https://assistant.google.com/services/a/uid/000000bd5dbcc7c5?hl=en"
     text = "DemGames – offers partner organizations an opportunity to engage youth on civic and voter education issues through an interactive learning platform. Last April, as we began to think of the many ways a gaming platform could contribute to a youth debates program in Guatemala, we decided to run a three-day design sprint to develop a prototype we could begin to test. After piloting a first version of the game in Guatemala last summer, we have continued to iterate in order to develop a fun and engaging learning experience."
     [params.promo.image]
       path = "images/google-home.png"
       alt = "Watch"
+      
 
   [params.feature_list]
     title = "Why choose DemGames for your program?"
@@ -99,6 +101,7 @@ theme = "vex-hugo"
 
   [params.call_to_action]
     title = "Get Product Updates"
+    link = "#link-to-form"
     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
     placeholder = "Your Email Address Here"
     button_text = "Subscribe"
