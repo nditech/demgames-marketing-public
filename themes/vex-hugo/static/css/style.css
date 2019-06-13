@@ -331,7 +331,7 @@ a:active {
   .gallery .block {
     padding: 20px; }
     .gallery .block:hover .gallery-overlay {
-      webkit-transform: scale(1);
+      -webkit-transform: scale(1);
       transform: scale(1);
       opacity: 1;
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }

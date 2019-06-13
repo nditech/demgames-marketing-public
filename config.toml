@@ -54,11 +54,11 @@ theme = "vex-hugo"
       title = "Engaging Content"
       text = "Self-paced multiple choice and matching questions to offer quick reinforcement on key concepts."
     [[params.features.left]]
-      icon = "tf-ion-ios-bell-outline"
+      icon = "tf-ion-ios-star-outline"
       title = "Choose-your-own-adventure"
       text = "Choose-your-own-adventure narration that mimics practical decision-making and builds high-level reasoning skills"
     [[params.features.left]]
-      icon = "tf-ion-ios-cart-outline"
+      icon = "tf-ion-ios-cog-outline:before"
       title = "Customization & themeing"
       text = "You have the ability to customize themes and certain features to better fit your program brand and goals."
     # Menu at the right of the image
@@ -67,17 +67,17 @@ theme = "vex-hugo"
       title = "Extensible Content"
       text = "Content can be extended to meet accessibility requirements for blind or low mobility users through a voice-based assistant."
     [[params.features.right]]
-      icon = "tf-ion-ios-bell-outline"
+      icon = "tf-ion-ios-star-outline"
       title = "Leaderboard"
       text = "Players earn points to advance in the game and unlock new levels."
     [[params.features.right]]
-      icon = "tf-ion-ios-cart-outline"
+      icon = "tf-ion-ios-cog-outline:before"
       title = "Flexibility"
       text = "As a program implementers, you can tailor the level of difficulty and choose between the different game types to better match program objectives."
 
   [params.promo]
     title = "Built through a human-centered approach"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    text = "DemGames – offers partner organizations an opportunity to engage youth on civic and voter education issues through an interactive learning platform. Last April, as we began to think of the many ways a gaming platform could contribute to a youth debates program in Guatemala, we decided to run a three-day design sprint to develop a prototype we could begin to test. After piloting a first version of the game in Guatemala last summer, we have continued to iterate in order to develop a fun and engaging learning experience."
     [params.promo.image]
       path = "images/google-home.png"
       alt = "Watch"
