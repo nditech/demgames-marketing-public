@@ -58,7 +58,7 @@ theme = "vex-hugo"
       title = "Choose-your-own-adventure"
       text = "Choose-your-own-adventure narration that mimics practical decision-making and builds high-level reasoning skills"
     [[params.features.left]]
-      icon = "tf-ion-ios-cog-outline:before"
+      icon = "tf-ion-ios-cog-outline"
       title = "Customization & themeing"
       text = "You have the ability to customize themes and certain features to better fit your program brand and goals."
     # Menu at the right of the image
@@ -71,7 +71,7 @@ theme = "vex-hugo"
       title = "Leaderboard"
       text = "Players earn points to advance in the game and unlock new levels."
     [[params.features.right]]
-      icon = "tf-ion-ios-cog-outline:before"
+      icon = "tf-ion-ios-cog-outline"
       title = "Flexibility"
       text = "As a program implementers, you can tailor the level of difficulty and choose between the different game types to better match program objectives."
 
