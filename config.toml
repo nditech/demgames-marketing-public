@@ -88,8 +88,8 @@ theme = "vex-hugo"
       image = "images/vector-art.png"
       title = "Engage with your audience"
       text = "Interactive learning platforms offer a unique opportunity to engage with youth on democracy--with a technology approach that meets them where they are."
-      button_link = ""
-      button_text = "Sign Up"
+      
+      
     [[params.feature_list.items]]
       image = "images/engage-vector.png"
       title = "When to use DemGames?"

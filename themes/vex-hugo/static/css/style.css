@@ -139,6 +139,8 @@ a:active {
       color: #ffffff;
       background: #f9a743;
       box-shadow: 0 15px 40px rgb(249,167,68,0.5);
+      margin: 30px 0px 0px;
+      padding: 15px 40px;
     }
 .btn-main-sm {
   padding: 12px 35px;
