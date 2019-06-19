@@ -100,9 +100,10 @@ theme = "vex-hugo"
       button_text = "Sign Up"
 
   [params.call_to_action]
+    image = "images/CTA_Photo.png"
     title = "Get Product Updates"
     link = "#link-to-form"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    text = " ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
     placeholder = "Your Email Address Here"
     button_text = "Subscribe"
 

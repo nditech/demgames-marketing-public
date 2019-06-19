@@ -55,7 +55,7 @@ a {
   margin-top: 100px; }
 
 .bg-1 {
-  background-image: url(../images/call-to-action.jpg); }
+  background-image: url(/images/CTA_Photo.png); }
 
 .bg-opacity {
   position: relative; }
@@ -66,7 +66,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.7); }
+    background: rgba(87, 84, 84, 0.7); }
 
 a:focus,
 .btn:focus,
@@ -139,6 +139,8 @@ a:active {
       color: #ffffff;
       background: #f9a743;
       box-shadow: 0 15px 40px rgb(249,167,68,0.5);
+      margin: 30px 0px 0px;
+      padding: 15px 40px;
     }
 .btn-main-sm {
   padding: 12px 35px;

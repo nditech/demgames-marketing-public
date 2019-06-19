@@ -34,7 +34,24 @@ $(document).ready(function(){
 
 
 
-});
+})
+
+//Form input
+var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbxP66OXRIHOkbrarmRE2Nsi-ADI42TlxnwL10KSgU9HypefRxs/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+;
 
 
 
