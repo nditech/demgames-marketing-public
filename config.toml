@@ -25,11 +25,11 @@ theme = "vex-hugo"
       link = "https://nditech.org/team"
       text = "ABOUT NDI TECH"
     [[params.navbar.menu]]
-      link = "#link-to-form"
+      link = "https://forms.gle/5D6Y88wiq2XKQU7p6"
       text = "SIGN UP"
-    [[params.navbar.menu]]
-      link = "#contact"
-      text = "CONTACT"
+  #  [[params.navbar.menu]]
+  #    link = "#contact"
+  #    text = "CONTACT"
 
   # Header
   [params.header]
@@ -78,7 +78,7 @@ theme = "vex-hugo"
   [params.promo]
     title = "Built through a human-centered approach"
     link = "https://assistant.google.com/services/a/uid/000000bd5dbcc7c5?hl=en"
-    text = "DemGames – offers partner organizations an opportunity to engage youth on civic and voter education issues through an interactive learning platform. Last April, as we began to think of the many ways a gaming platform could contribute to a youth debates program in Guatemala, we decided to run a three-day design sprint to develop a prototype we could begin to test. After piloting a first version of the game in Guatemala last summer, we have continued to iterate in order to develop a fun and engaging learning experience."
+    text = "The Google Assistant powered debate trivia voice bot was a result of a human-centered approach to developing this game. By talking to our customers, we learned the value of inclusivity by delivering an extensible DemGames product available to all people, including those of us with low or no motor skills, and or low or no visibility."
     [params.promo.image]
       path = "images/google-home.png"
       alt = "Watch"
@@ -96,36 +96,36 @@ theme = "vex-hugo"
       image = "images/engage-vector.png"
       title = "When to use DemGames?"
       text = "DemGames is an ideal tool designed and developed specifically for youth to complement in-person engagements with a light touch, self-paced follow-up for mobile-based distance learning."
-      button_link = ""
+      button_link = "https://forms.gle/5D6Y88wiq2XKQU7p6"
       button_text = "Sign Up"
 
-  [params.call_to_action]
-    image = "images/CTA_Photo.png"
-    title = "Get Product Updates"
-    link = "#link-to-form"
-    text = " ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-    placeholder = "Your Email Address Here"
-    button_text = "Subscribe"
+  #[params.call_to_action]
+  #  image = "images/CTA_Photo.png"
+  #  title = "Get Product Updates"
+  #  link = "#link-to-form"
+  #  text = " ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  #  placeholder = "Your Email Address Here"
+  #  button_text = "Subscribe"
 
-  [params.testimonials]
-    title = "Testimonials"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Rachel McGillicudy"
-      position = "Senior Director, UNDP"
-      image = "images/avater.png"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Priyal McGillicudy"
-      position = "Program Manager, USAID"
-      image = "images/avater.png"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Viet McDonald"
-      position = "Magician, National Endowment for Democracy"
-      image = "images/avater.png"
-    [params.testimonials.button]
-      link = ""
-      text = "Register an account"
+#  [params.testimonials]
+#    title = "Testimonials"
+#    [[params.testimonials.blocks]]
+#      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+#      name = "Rachel McGillicudy"
+#      position = "Senior Director, UNDP"
+#      image = "images/avater.png"
+#    [[params.testimonials.blocks]]
+#      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+#      name = "Priyal McGillicudy"
+#      position = "Program Manager, USAID"
+#      image = "images/avater.png"
+#    [[params.testimonials.blocks]]
+#      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+#      name = "Viet McDonald"
+#      position = "Magician, National Endowment for Democracy"
+#      image = "images/avater.png"
+#    [params.testimonials.button]
+#      link = ""
+#      text = "Register an account"
 
   # Footer uses navbar data

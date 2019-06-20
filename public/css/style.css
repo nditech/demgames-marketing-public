@@ -55,7 +55,7 @@ a {
   margin-top: 100px; }
 
 .bg-1 {
-  background-image: url(/images/CTA_Photo.png); }
+  background-image: url(images/CTA_Photo.png); }
 
 .bg-opacity {
   position: relative; }
@@ -66,7 +66,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(87, 84, 84, 0.7); }
+    background-color: rgba(126, 194, 122); }
 
 a:focus,
 .btn:focus,
