@@ -55,7 +55,7 @@ a {
   margin-top: 100px; }
 
 .bg-1 {
-  background-image: url(../images/call-to-action.jpg); }
+  background-image: url(images/CTA_Photo.png); }
 
 .bg-opacity {
   position: relative; }
@@ -66,7 +66,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.7); }
+    background-color: rgba(126, 194, 122); }
 
 a:focus,
 .btn:focus,
@@ -134,6 +134,14 @@ a:active {
     background-color: #7ec37aff;
     color: #fff; }
 
+    #promo {
+      display: inline-block;
+      color: #ffffff;
+      background: #f9a743;
+      box-shadow: 0 15px 40px rgb(249,167,68,0.5);
+      margin: 30px 0px 0px;
+      padding: 15px 40px;
+    }
 .btn-main-sm {
   padding: 12px 35px;
   text-transform: uppercase;
@@ -325,7 +333,7 @@ a:active {
   .gallery .block {
     padding: 20px; }
     .gallery .block:hover .gallery-overlay {
-      webkit-transform: scale(1);
+      -webkit-transform: scale(1);
       transform: scale(1);
       opacity: 1;
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
