@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A civic engagement platform that hosts simple games for engagement at scale for civic organizing, political inclusion, and other democratic concepts. ">
     <meta name="DemGames by NDI" content="">
-
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="cc0a54f7-5210-46aa-90a0-f33e0a1922f6" type="text/javascript" async></script>
 
 
@@ -220,6 +220,17 @@
     <script src="/js/owl.carousel.min.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/main.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 
   </body>
 </html>
